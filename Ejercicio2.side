@@ -1,0 +1,88 @@
+{
+  "id": "dad0200f-d14f-4e86-bf40-a1a274414be9",
+  "version": "2.0",
+  "name": "Ejercicio1",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "96d54b7e-7415-4ec6-8337-01b2404874d6",
+    "name": "buscarSeleniumIDE",
+    "commands": [{
+      "id": "682af6b8-00bc-4c67-84ac-517d0896b4a2",
+      "comment": "",
+      "command": "type",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Selenium IDE"
+    }, {
+      "id": "cd5beeff-e373-4398-80c9-869bb0237fd0",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7e7e718e-27eb-4a1d-9060-41d556e1003c",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": " css=h3",
+      "targets": [],
+      "value": "Selenium IDE"
+    }, {
+      "id": "964a28a7-5510-4837-bf72-12276f5c0ba9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "736x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1f58ae31-0a36-4af6-926d-8b140aa9ee75",
+      "comment": "",
+      "command": "click",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "12df7df9-30d8-4589-8421-9f8df65dfaf6",
+      "comment": "",
+      "command": "type",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Selenium IDE"
+    }, {
+      "id": "561d12fc-4d6c-42dd-b11d-6c8725649135",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h3",
+      "targets": [],
+      "value": "Selenium IDE"
+    }]
+  }],
+  "suites": [{
+    "id": "2c7eac96-e352-4805-9ef6-6efc9e552878",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["96d54b7e-7415-4ec6-8337-01b2404874d6"]
+  }],
+  "urls": [],
+  "plugins": []
+}
