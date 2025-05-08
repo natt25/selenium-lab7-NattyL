@@ -1,0 +1,42 @@
+{
+  "id": "096eee36-5bdf-43c4-97c2-3f17ce8c803c",
+  "version": "2.0",
+  "name": "Ejercicio5",
+  "url": "https://www.amazon.com",
+  "tests": [{
+    "id": "a7e0d89a-131a-4ff3-bc90-fdb2b60c07b0",
+    "name": "Untitled",
+    "commands": [{
+      "id": "d1c594ff-bb34-41b1-b493-998d48795744",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.amazon.com",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "22bb2749-bead-4673-bcef-44e4149e2eed",
+      "comment": "",
+      "command": "store",
+      "target": "monitor inalámbrico",
+      "targets": [],
+      "value": "producto"
+    }, {
+      "id": "587048f3-285f-4307-bf64-718b7b671666",
+      "comment": "",
+      "command": "type",
+      "target": "name=field-keywords",
+      "targets": [],
+      "value": "${KEY_ENTER}"
+    }]
+  }],
+  "suites": [{
+    "id": "1da6b166-3f2b-405c-88a9-8b4a77a48b36",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a7e0d89a-131a-4ff3-bc90-fdb2b60c07b0"]
+  }],
+  "urls": [],
+  "plugins": []
+}
