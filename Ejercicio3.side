@@ -1,0 +1,109 @@
+{
+  "id": "b2e58b09-ccbb-4f42-b7fb-b89cf8a04554",
+  "version": "2.0",
+  "name": "Ejercicio3",
+  "url": "https://www.amazon.com/-/es/",
+  "tests": [{
+    "id": "8199a740-b934-4826-acfd-4aeef87edfc3",
+    "name": "Comprar",
+    "commands": [{
+      "id": "b6bb882d-4232-403a-91d5-9d22bbd2acea",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.amazon.com/-/es/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ba654de1-0557-4130-8e52-e51ed731c224",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "736x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b4725326-71d5-495e-a9f9-6e03335f84ff",
+      "comment": "",
+      "command": "click",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "204300a0-3f2e-4a22-b13b-9b659f9f3d7d",
+      "comment": "",
+      "command": "type",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "laptop"
+    }, {
+      "id": "dcc26da2-b0a4-4309-aa4a-c04dadfb0b46",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "aa1656f3-4224-4ead-9e6e-a70da2ae0a2e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Servicio al Cliente",
+      "targets": [
+        ["linkText=Servicio al Cliente", "linkText"],
+        ["css=.nav-li:nth-child(5) .nav-a", "css:finder"],
+        ["xpath=//a[contains(text(),'Servicio al Cliente')]", "xpath:link"],
+        ["xpath=//div[@id='nav-xshop']/ul/li[5]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/-/es/gp/help/customer/display.html?nodeId=508510&ref_=nav_cs_customerservice')]", "xpath:href"],
+        ["xpath=//li[5]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Servicio al Cliente')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8753e92-e090-4a82-8e29-7bfed290eac9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Agregar a la Lista",
+      "targets": [
+        ["linkText=Agregar a la Lista", "linkText"],
+        ["name=submit.add-to-registry.wishlist.unrecognized", "name"],
+        ["css=.a-button-inner > .a-text-left", "css:finder"],
+        ["xpath=//a[contains(text(),'Agregar a la Lista')]", "xpath:link"],
+        ["xpath=//a[@name='submit.add-to-registry.wishlist.unrecognized']", "xpath:attributes"],
+        ["xpath=//span[@id='wishListMainButton']/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.amazon.com/-/es/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Faw%2Fd%2FB0B1VQ1ZQY&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&')]", "xpath:href"],
+        ["xpath=//span/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Agregar a la Lista')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "afa74251-4166-4bcf-aa34-3a65d1901e13",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8199a740-b934-4826-acfd-4aeef87edfc3"]
+  }],
+  "urls": [],
+  "plugins": []
+}
